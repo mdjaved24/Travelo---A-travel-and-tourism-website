@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cruise</title>
+</head>
+<link rel="stylesheet" href="cruise.css">
+<body>
+    <header>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <ul>
+            <li class="nav"><a href="../home/home.html">Home</a></li>
+            <li class="nav"><a href="../flights/flights.html">Flights</a></li>
+            <li class="nav"><a href="#" id="cruise">Cruise</a></li>
+            <li class="nav"><a href="../trains/trains.html">Trains</a></li>
+            <li class="nav"><a href="../bus/bus.html">Bus</a></li>
+            <li class="nav"><a href="../hotels/hotels.html">Hotels</a></li>
+            <li class="nav"><a href="../packages/packages.html">Packages</a></li>
+            <li class="nav"><a href="../bookings/bookings.html">Bookings</a></li>
+            <li class="nav"><a href="../Contact/contact.html">Contact</a></li>
+            <div id="search"><input type="search" placeholder="search">
+                <img id="img" src="img/search.jpg" width="10px" height="10px"></div>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="cruisehead">
+        <h6>MarineMarvel Ventures</h6>
+    </section>
+    <section>
+        <form action="#">
+            <label for="from"><h5>Sail From:</h5>
+                <input type="text" id="from" placeholder="Source">
+            </label>
+            <label for="to"><h5>Sail To:</h5>
+                 <input type="text" id="destination" placeholder="Destination">
+            </label>
+            <label for="departure"><h5>Departure:</h5>
+                 <input type="date" placeholder="dd/mm/yyyy">
+            </label>
+            <label for="return"><h5>Return:</h5>
+                 <input type="date" placeholder="dd/mm/yyyy">
+            </label>
+            <label for="adult"><h5>Adult:</h5>
+                  <input type="number" placeholder="Adults">
+            </label>
+            <label for="children"><h5>Children:</h5>
+                  <input type="number" placeholder="Children">
+            </label>
+            <label for="submit" id="submit-form">
+                <button type="submit">SEARCH
+            </label>
+        </form>
+    </section>
+    <div class="side-container">
+        <div class="contain" id="item1">
+            <form action="#" id="sort">
+                <h5>Sort by:</h5>
+                <select name="Name" id="name">
+                    <option value="name">Name</option>
+                    <option value="name">Name(A-Z)</option>
+                    <option value="name">Name(Z-A)</option>
+                </select>
+                <select name="price" id="price">
+                    <option value="price">Price</option>
+                    <option value="low">Low-High</option>
+                    <option value="high">High-Low</option>
+                </select>
+                <select name="Rating" id="rating">
+                    <option value="rating">Rating</option>
+                    <option value="low">Low-High</option>
+                    <option value="high">High-Low</option>
+                </select>
+                <select name="Popular" id="popular">
+                    <option value="popularity">Popularity</option>
+                    <option value="low">Low-High</option>
+                    <option value="high">High-Low</option>
+                </select>
+                <label for="submit" id="apply">
+                    <button type="submit">APPLY
+                </label>
+             </form>
+        </div>
+        <div class="contain" id="item2">
+
+            <div class="cruise-box" id="cruise-item1">
+                <img src="img/asian.jpeg" alt="" >
+                <h6>Asian Odyssey</h6>
+                <p><strong>₹58,000</strong>/person</p>
+            </div>
+
+            <div class="cruise-box" id="cruise-item2">
+                <img src="img/Greek.jpeg" alt="" >
+                <h6>Greek Islands Delight</h6>
+                <p><strong>₹80,000</strong>/person</p>
+            </div>
+
+            <div class="cruise-box" id="cruise-item3">
+                <img src="img/Amazon.jpeg" alt="" >
+                <h6>Amazon Adventure</h6>
+                <p><strong>₹65,000</strong>/person</p>
+            </div>
+
+            <div class="cruise-box" id="cruise-item4">
+                <img src="img/Caribbean.jpeg" alt="" >
+                <h6>Caribbean Bliss</h6>
+                <p><strong>₹1,20,000</strong>/person</p>
+            </div>
+
+            <div class="cruise-box" id="cruise-item5">
+                <img src="img/Northern.jpeg" alt="" >
+                <h6>Northern Lights</h6>
+                <p><strong>₹75,000</strong>/person</p>
+            </div>
+
+            <div class="cruise-box" id="cruise-item6">
+                <img src="img/African.jpeg" alt="" >
+                <h6>African Safari</h6>
+                <p><strong>₹70,000</strong>/person</p>
+            </div>
+
+            <div class="cruise-box" id="cruise-item7">
+                <img src="img/Antarctic.jpeg" alt="" >
+                <h6>Antarctic Expedition</h6>
+                <p><strong>₹160,000</strong>/person</p>
+            </div>
+
+            <div class="cruise-box" id="cruise-item8">
+                <img src="img/exotic.jpeg" alt="" >
+                <h6>Exotic Island Escapes</h6>
+                <p><strong>₹55,000</strong>/person</p>
+            </div>
+        </div>
+    </div>
+    </section>
+</main>
+
+<!----------------------------------------------->
+    <!-- FOOTER  -->
+    <footer>
+        <div class="more">
+
+        <!-- SERVICES -->
+         <div class="foot">
+          <ul>
+            <li><h1>SERVICES</h1></li>
+            <li><a href="#">Domestic Hotels</a></li>
+            <li><a href="#">International Hotels</a></li>
+            <li><a href="#">Domestic flights</a></li>
+            <li><a href="#">International flights</a></li>
+            <li><a href="#">Bus Booking</a></li>
+            <li><a href="#">Train Booking</a></li>
+          </ul>
+         </div>
+
+         <!-- ------------------------------------------------->
+         <!-- ABOUT US -->
+         <div class="foot">
+            <ul>
+                <li><h1>ABOUT US</h1></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">User Agreement</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+         </div>
+         
+            <!-- ----------------------------------------->
+            <!-- MORE LINKS -->
+            <div class="foot" id="links">
+                <ul>
+                    <h1>MORE LINKS</h1>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Hotels near me</a></li>
+                    <li><a href="#">My Bookings</a></li>
+                    <li><a href="#">Cancellation</a></li>
+                    <li><a href="#">My Account</a></li>
+                </ul>
+            </div>
+            <!---------------------------------------------->
+            <!-- FEEDBACK -->
+            <div class="foot" id="feed">
+                <textarea id="feedback" placeholder="Please provide us your valuable feedback">
+                </textarea>
+                <input type="submit" id="submit">
+                <p>1-918-339-6390</p>
+            </div>
+        </div>
+        <p id="all-rights-reserved">@2023Travel&Tourism.All rights reserved</p>
+       </footer>
+</body>
+</html>

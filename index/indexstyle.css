@@ -1,0 +1,140 @@
+ 
+ /* FONTS */
+ @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+ 
+ html{
+  font-size: 16px;
+ }
+
+ /* BACKGROUND */
+ body{
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('background.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* --------------------------------------- */
+/* NAVIGATION BAR  */
+
+nav{
+    margin-top: -1.8rem;
+    padding: 0;
+    height: 6.25rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+  }
+
+.navbar{
+    overflow: auto;
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .navbar ul{
+    margin: 0.6rem;
+    padding: 0;
+    float: right;
+    overflow: auto;
+    display: inline;
+  }
+
+  .navbar ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 1rem;
+  }
+
+  .navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .navbar li a:hover{
+    color: gray;
+  }
+
+
+#menu {
+    float: right;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    padding: 0.6rem 1.25rem;
+    font-size: 1.35rem;
+  }
+
+  
+  #menu option {
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: white;
+    font-size: 1.35rem;
+  }
+
+  #menu option a{
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  #menu:hover, #menu:focus {
+    outline: none;
+  }
+
+
+#title{
+    margin: -0.6rem;
+    padding: 0;
+    float: left;
+    font-size: 2.5rem;
+    font-family: 'Borel', cursive;
+    color: azure;
+}
+
+ 
+/* MAIN  */
+main{
+    text-align: center;
+    margin: 4rem;
+    padding: 2.5rem;
+}
+
+
+#explore{
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Borel', cursive;
+    text-align: center;
+    color: azure;
+}
+.motto{
+    margin: 0.6rem;
+    text-align: center;
+    color: azure;
+    font-size: 1.35rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exp a{
+    margin: 2.8rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: azure;
+    border: 1px solid azure;
+    border-radius: 1.1rem;
+}
+.exp a:hover{
+    color: rgb(0, 15, 15);
+    background-color: rgb(148, 195, 195);
+}
+.exp{
+    margin: 3.1rem;
+}

@@ -1,0 +1,394 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap');
+
+/* Variables */
+:root{
+    --primary-color:rgba(0, 155, 155, 0.697);
+    --secondary-color:rgb(247, 250, 251);
+}
+/* NAVIGATION BAR  */
+nav{
+    margin: 20px 0px 40px 0px;
+    height: 90px;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    border-radius: 6px;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,.1);
+  }
+
+nav ul{
+    overflow: auto;
+    margin: 25px 10px;
+  }
+
+ .nav{
+    float: left;
+    list-style: none;
+    margin: 25px 10px;
+  }
+
+  /* Styling links */
+ .nav a{
+  margin: 0;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: black; */
+  }
+
+  .nav a:hover,.nav a:active,.nav a:focus{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+  }
+
+  #flights{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+  }
+
+  /* Search bar */
+  #search{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 25px 10px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 260px;
+    height: 27px;
+  }
+
+  #search input{
+    border: none;
+    width: 235px;
+    height: 27px;
+  }
+
+  #img{
+    width: 20px;
+    height: 20px;
+  }
+
+
+  /* ---------------------------------------------*/
+  /* FLYNOW */
+  .flynow{
+    margin: 0;
+    padding: 0;
+    background: url('flight.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px var(--secondary-color);
+  }
+  .flynow h6{
+    margin: 0;
+    padding: 100px;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: white;
+  }
+  /* FLIGHT */
+  form{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(247, 250, 251);
+    border-radius: 6px;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,.1);
+    border-bottom: 3px solid var(--primary-color);
+  }
+
+  label{
+    margin: 15px 0px 15px 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+
+  input{
+    width: 180px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+  #submit-form button{
+    margin: 15px 0px 0px 5px;
+    color: azure;
+    font-size: 18px;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 10px;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 160px;
+    color: #fff;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.4) inset;
+    cursor: pointer;
+  }
+
+  #submit-form button:hover{
+    background-color: black;
+  }
+
+/* --------------------------------------------------------*/
+  /* CONTAINER  */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.box{
+    width: 360px;
+    height: 360px;
+    margin: 10px 10px 10px 20px;
+}
+
+#item2{
+    width: 85%;
+    margin: -5px -50px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(247, 250, 251);
+    border-radius: 6px;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,.1);
+    border-bottom: 3px solid var(--primary-color);
+    border-right: 3px solid var(--primary-color);
+    border-top: none;
+    border-left: none;
+}
+
+.flight-box{
+    width: 250px;
+    height: 250px;
+    margin: 10px 30px;
+    border: 1px solid var(--secondary-color);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.flight-box:hover{
+  box-shadow: 0 1px 34px 2px rgba(0,0,0,.2);
+}
+
+.flight-box img{
+  margin: 0;
+  border-radius: 10px;
+  width: 250px;
+  height: 150px;
+  background-color: white;
+}
+
+.flight-box h6{
+  margin: 3px;
+  padding: 0;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.flight-box p{
+  margin: 6px 0px 0px 25px;
+  padding: 5px;
+  font-family: 'Ubuntu';
+  font-size: 15px;
+  /* text-align: center; */
+  color: black;
+}
+
+.flight-box p strong{
+  color: red;
+  font-size: 20px;
+  font-family: 'Borol',cursive;
+}
+
+  /* SORT */
+
+#item1{
+  margin: -25px 25px 0px -75px;
+  width: 10%;
+}
+
+  #sort{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border-right: 3px solid var(--primary-color);
+  }
+
+  select{
+    margin: 25px;
+    width: 120px;
+    height: 28px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    border-radius: 7px;
+  }
+
+  #sort option {
+    background-color:var(--secondary-color); 
+    color: black;
+    font-size: 20px;
+  }
+
+  
+  #sort option:hover, #sort option:focus {
+    outline: none;
+  }
+
+  #sort h5{
+    font-family: 'Raleway';
+    font-size: 22px;
+    margin: 10px 0px 10px 40px;
+    
+  }
+
+  #apply button{
+    margin: 2px 0px 0px -5px;
+    color: azure;
+    font-size: 15px;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding: 11px 10px;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.4) inset;
+    cursor: pointer;
+  }
+
+  #apply button:hover{
+    background-color: black;
+  }
+
+  #boxes{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    border-radius: 6px;
+    box-shadow: 0 1px 30px 0 rgba(0,0,0,.1);
+    border-bottom: 3px solid var(--primary-color)
+  }
+
+  .box{
+    border: 2px solid black;
+    width: 360px;
+    height: 360px;
+  }
+  /* --------------------------------------------*/
+  /* FOOTER  */
+
+  footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9));
+    box-shadow: 0 -3px 2px 0 aqua;
+    height: 400px;
+  }
+  .more{
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  .foot{
+    width: 380px;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .foot li{
+    list-style: none;
+  }
+
+  /* Styling links */
+  .foot li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 5px;
+  }
+  
+  .foot li a:hover{
+    color: darkgray;
+  }
+
+
+  #links{
+    width: 380px;
+  }
+
+  p{
+    color: white;
+    font-size: 18px;
+    margin: -10px 0px 0px 0px;
+    padding: 18px;
+  }
+
+  /* Feedback */
+
+  #feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 560px;
+  }
+
+  #feedback{
+    margin-top: 30px;
+    width: 250px;
+    height: 120px;
+    background-color: black;
+    color: white;
+  }
+
+  #submit{
+    float: left;
+    font-size: 18px;
+    margin: 18px 0px 20px 0px;
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 35px;
+  }
+
+  #submit:hover{
+    opacity: 0.6;
+  }
+
+  #feed p{
+    font-size: 35px;
+    color: aqua;
+    font-family: 'Borel', cursive;
+    margin: -20px 0px -40px -10px
+  }
+ 

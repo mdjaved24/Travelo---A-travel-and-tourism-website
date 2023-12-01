@@ -1,0 +1,425 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap');
+
+/* Variables */
+:root{
+    --primary-color:rgba(0, 155, 155, 0.697);
+    --secondary-color:rgb(247, 250, 251);
+}
+
+
+html{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* NAVIGATION BAR  */
+nav{
+  margin: 1.25rem 0 2.5rem 0;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.35rem;
+  box-shadow: 0 1px 1.87rem 0 rgba(0,0,0,.1);
+}
+
+nav ul{
+  overflow: auto;
+  margin: 1.5rem 0.6rem;
+}
+
+.nav{
+  float: left;
+  list-style: none;
+  margin: 1.5rem 0.6rem;
+}
+
+/* Styling links */
+.nav a{
+  margin: 0;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.35rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav a:hover,.nav a:active,.nav a:focus{
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+#trains{
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Search bar */
+#search{
+  display: flex;
+  align-items: center;
+  float: right;
+  margin: 1.5rem 0.6rem;
+  padding: 0.3rem;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 1.25rem;
+  width: 15.3rem;
+  height: 1.5rem;
+}
+
+#search input{
+  border: none;
+  outline: none;
+  width: 13.75rem;
+  height: 1.5rem;
+}
+
+#img{
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+
+  /* ---------------------------------------------*/
+   /* TRAINHEAD */
+   
+   .trainhead{
+    margin-top: -10rem;
+    background: url('img/trainhead.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 18rem;
+    border-radius: 0.6rem;
+    box-shadow: 2px 2px 2px 2px var(--secondary-color);
+  }
+
+  .trainhead h6{
+    padding: 6.25rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: white;
+  }
+
+  /* FORM */
+  form{
+    margin: 1.25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(247, 250, 251);
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+    border-bottom: 3px solid var(--primary-color);
+  }
+
+  label{
+    margin: 1rem 0px 1rem 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+  }
+
+  input{
+    width: 11.25rem;
+    height: 2.5rem;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    border-radius: 0.6rem;
+  }
+
+  #submit-form button{
+    margin: 5rem 0px 0px 0.3rem;
+    color: azure;
+    border: none;
+    font-size: 1.1rem;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding: 0.68rem 0.6rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 9rem;
+    color: #fff;
+    box-shadow: 0.25rem 0.25rem 0 0 rgba(0, 0, 0, 0.4) inset;
+    cursor: pointer;
+  }
+
+  #submit-form button:hover{
+    background-color: black;
+  }
+
+/* --------------------------------------------------------*/
+  /* CONTAINER  */
+
+  .side-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1.3rem;
+}
+
+.box{
+    width: 22.5rem;
+    height: 22.5rem;
+    margin: 0.6rem 0.6rem 0.6rem 1.25rem;
+}
+
+#item2{
+    width: 85%;
+    margin: -0.3rem -3.1rem 0 1.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(247, 250, 251);
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+    border-bottom: 3px solid var(--primary-color);
+    border-right: 3px solid var(--primary-color);
+    border-top: none;
+    border-left: none;
+}
+
+.train-box{
+  width: 13rem;
+  height: 14rem;
+  margin: 0.6rem 1.8rem;
+  border: 1px solid var(--secondary-color);
+  margin: 0.6rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 1px 0.6rem 0 rgba(0,0,0,.1);
+  cursor: pointer;
+}
+
+.train-box:hover{
+  box-shadow: 0 1px 2.1rem 2px rgba(0,0,0,.2);
+}
+
+.train-box img{
+  border-radius: 0.6rem;
+  width: 13rem;
+  height: 9.3rem;
+  background-color: white;
+}
+
+.train-box h6{
+  margin: 3px;
+  padding: 0;
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.train-box p{
+  margin: 0.5rem 0px 0px 1.5rem;
+  padding: 0.3rem;
+  font-family: 'Ubuntu';
+  font-size: 15px;
+  color: black;
+}
+
+.train-box p strong{
+  color: red;
+  font-size: 1.25rem;
+  font-family: 'Borol',cursive;
+}
+
+  /* SORT */
+
+  #item1{
+    margin: -1.5rem 1.5rem 0px -4.7rem;
+    width: 10%;
+  }
+  
+    #sort{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      border-right: 3px solid var(--primary-color);
+    }
+  
+    select{
+      margin: 1.5rem;
+      width: 8rem;
+      height: 1.75rem;
+      font-family: 'Raleway';
+      font-size: 1rem;
+      border-radius: 0.4rem;
+    }
+  
+    #sort option {
+      background-color:var(--secondary-color); 
+      color: black;
+      font-size: 1rem;
+    }
+  
+    
+    #sort option:hover, #sort option:focus {
+      outline: none;
+    }
+  
+    #sort h5{
+      font-family: 'Raleway';
+      font-size: 1.3rem;
+      margin: 0.6rem 0px 0.6rem 2.5rem;
+      
+    }
+  
+    #apply button{
+      margin: 2px 0px 0px -0.3rem;
+      color: azure;
+      font-size: 1rem;
+      border: none;
+      font-family: 'Raleway';
+      font-weight: bold;
+      padding: 0.6rem;
+      background-color: var(--primary-color);
+      text-align: center;
+      width: 7.5rem;
+      height: 1.8rem;
+      color: #fff;
+      box-shadow: 0.25rem 0.25rem 0 0 rgba(0, 0, 0, 0.4) inset;
+      cursor: pointer;
+    }
+  
+    #apply button:hover{
+      background-color: black;
+    }
+  
+    #boxes{
+      margin: 1.25rem;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: var(--secondary-color);
+      border-radius: 0.3rem;
+      box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+      border-bottom: 3px solid var(--primary-color)
+    }
+  
+    .box{
+      border: 2px solid black;
+      width: 22.5rem;
+      height: 22.5rem;
+    }
+
+
+  /* --------------------------------------------*/
+  /* FOOTER  */
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9));
+    box-shadow: 0 -3px 2px 0 aqua;
+    height: 24rem;
+  }
+  .more{
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  .foot{
+    width: 25rem;
+    margin: 0.6rem;
+    padding: 1.5rem;
+  }
+
+  .foot li{
+    list-style: none;
+  }
+
+  .foot h1{
+    font-size: 1.5rem;
+  }
+
+  /* Styling links */
+  .foot li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+  }
+  
+  .foot li a:hover{
+    color: darkgray;
+  }
+
+
+  #links{
+    width: 24rem;
+  }
+
+  p{
+    color: white;
+    font-size: 1rem;
+    margin: -0.6rem 0 0 0;
+    padding: 1.25rem;
+  }
+
+  /* Feedback */
+
+  #feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 37.5rem;
+  }
+
+  #feedback{
+    margin-top: 2.5rem;
+    width: 16rem;
+    height: 9rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+  }
+
+
+
+  #submit{
+    float: left;
+    font-size: 1.1rem;
+    margin: 1.25rem 0;
+    color: white;
+    background-color: red;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 0.6rem;
+  }
+
+  #submit:hover{
+    opacity: 0.6;
+  }
+
+  #feed p{
+    font-size: 1.5rem;
+    color: aqua;
+    font-family: 'Borel', cursive;
+    margin: -1.25rem 0 -2.5rem -0.6rem;
+  }
+
+  #feed p:hover{
+    cursor: pointer;
+    color: azure;
+  }
+
+  #all-rights-reserved{
+    margin-top: -2rem;
+    font-size: 1.2rem;
+  }

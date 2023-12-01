@@ -1,0 +1,460 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway:wght@500&family=Ubuntu:wght@300&display=swap');
+
+/* Variables */
+:root{
+    --primary-color:rgba(0, 155, 155, 0.697);
+    --secondary-color:rgb(247, 250, 251);
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* NAVIGATION BAR  */
+nav{
+  margin: 1.25rem 0 2.5rem 0;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.35rem;
+  box-shadow: 0 1px 1.87rem 0 rgba(0,0,0,.1);
+}
+
+nav ul{
+  overflow: auto;
+  margin: 1.5rem 0.6rem;
+}
+
+.nav{
+  float: left;
+  list-style: none;
+  margin: 1.5rem 0.6rem;
+}
+
+/* Styling links */
+.nav a{
+  margin: 0;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.35rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav a:hover,.nav a:active,.nav a:focus{
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+#packages{
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Search bar */
+#search{
+  display: flex;
+  align-items: center;
+  float: right;
+  margin: 1.5rem 0.6rem;
+  padding: 0.3rem;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 1.25rem;
+  width: 15.3rem;
+  height: 1.5rem;
+}
+
+#search input{
+  border: none;
+  outline: none;
+  width: 13.75rem;
+  height: 1.5rem;
+}
+
+#img{
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+  /* ---------------------------------------------*/
+  /* PACKHEAD */
+ 
+  .packhead{
+    margin-top: -10rem;
+    background: url('img/packhead.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 18rem;
+    border-radius: 0.6rem;
+    box-shadow: 2px 2px 2px 2px var(--secondary-color);
+  }
+
+  .packhead h6{
+    padding: 6.25rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: white;
+  }
+
+  /* FORM */
+  form{
+    margin: 1.25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(247, 250, 251);
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+    border-bottom: 3px solid var(--primary-color);
+  }
+
+  label{
+    margin: 1rem 0px 1rem 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+  }
+
+  input{
+    width: 11.25rem;
+    height: 2.5rem;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    border-radius: 0.6rem;
+  }
+
+  #submit-form button{
+    margin: 5rem 0px 0px 0.3rem;
+    color: azure;
+    border: none;
+    font-size: 1.1rem;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding: 0.68rem 0.6rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 9rem;
+    color: #fff;
+    box-shadow: 0.25rem 0.25rem 0 0 rgba(0, 0, 0, 0.4) inset;
+    cursor: pointer;
+  }
+
+  #submit-form button:hover{
+    background-color: black;
+  }
+  #destination{
+    width: 20rem;
+ }
+
+
+/* ===================================================== */
+  /* DOMESTIC */
+
+ 
+  .heading{
+    display: inline;
+  }
+
+  #morepacks{
+   float: right;
+  }
+
+  #morepacks a{
+    margin-right: 4.3rem;
+    font-size: 2rem;
+    list-style: none;
+    text-decoration: none;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #morepacks a:hover{
+    color: black;
+  }
+
+  #booknow{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    margin-left:5rem;
+  }
+
+ 
+  .packs{
+    margin: 1.25rem 0 3.75rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+img{
+  border: 1px solid white;
+  border-radius: 0.6rem;
+  box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+}
+
+/* --------------------------------------------------------*/
+.packages{
+  background-color: #fff;
+  border-radius: 0.6rem;
+  box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: column;
+  padding: 2.25rem 0 1.5rem 2.5rem;
+  margin: 3.7rem;
+}
+
+
+.heading{
+  display: inline;
+}
+
+#morepacks{
+ float: right;
+}
+
+#morepacks a{
+  margin-right: 4.3rem;
+  font-size: 1.8rem;
+  list-style: none;
+  text-decoration: none;
+  color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#morepacks a:hover{
+  color: black;
+}
+
+#booknow{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  margin-left:4.5rem;
+}
+
+
+.packs{
+  margin: 1.25rem 0 3.75rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box a{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+.box a h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+ font-family: 'Ubuntu', sans-serif;
+  margin: 1rem 0 0 0;
+  text-align: left;
+}
+
+.box a p{
+  color: darkgray;
+  font-size: 1rem;
+}
+
+.box a:hover{
+color: var(--primary-color);
+border-bottom: 2px solid var(--primary-color);
+}
+
+
+.package-box{
+    width: 10rem;
+    height: 18rem;
+    margin: 0.6rem 1.8rem;
+    border: 1px solid var(--secondary-color);
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.package-box:hover{
+ opacity: 0.5;
+}
+
+.package-box img{
+  margin: 0;
+  border-radius: 0.6rem;
+  width: 10rem;
+  height: 13rem;
+  background-color: white;
+  box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+}
+
+.package-box h6{
+  margin: 1rem 0 0 0.6rem;
+  font-family: 'Ubuntu';
+  font-size: 1.3rem;
+  color: black;
+}
+
+.package-box p{
+  padding: 0.3rem;
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  color: black;
+}
+
+.package-box p strong{
+  color: red;
+  font-size: 1rem;
+  font-family: 'Borol',cursive;
+}
+
+  #boxes{
+    margin: 1.2rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 1.8rem 0 rgba(0,0,0,.1);
+    border-bottom: 3px solid var(--primary-color)
+  }
+
+  .box{
+    border: 2px solid black;
+    width: 31rem;
+    height: 31rem;
+  }
+  /* --------------------------------------------*/
+  /* FOOTER  */
+
+  footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9));
+    box-shadow: 0 -3px 2px 0 aqua;
+    height: 24rem;
+  }
+  .more{
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  .foot{
+    width: 25rem;
+    margin: 0.6rem;
+    padding: 1.5rem;
+  }
+
+  .foot li{
+    list-style: none;
+  }
+
+  .foot h1{
+    font-size: 1.5rem;
+  }
+
+  /* Styling links */
+  .foot li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+  }
+  
+  .foot li a:hover{
+    color: darkgray;
+  }
+
+
+  #links{
+    width: 24rem;
+  }
+
+  p{
+    color: white;
+    font-size: 1rem;
+    margin: -0.6rem 0 0 0;
+    padding: 1.25rem;
+  }
+
+  /* Feedback */
+
+  #feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 37.5rem;
+  }
+
+  #feedback{
+    margin-top: 2.5rem;
+    width: 16rem;
+    height: 9rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+  }
+
+
+
+  #submit{
+    float: left;
+    font-size: 1.1rem;
+    margin: 1.25rem 0;
+    color: white;
+    background-color: red;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 0.6rem;
+  }
+
+  #submit:hover{
+    opacity: 0.6;
+  }
+
+  #feed p{
+    font-size: 1.5rem;
+    color: aqua;
+    font-family: 'Borel', cursive;
+    margin: -1.25rem 0 -2.5rem -0.6rem;
+  }
+
+  #feed p:hover{
+    cursor: pointer;
+    color: azure;
+  }
+
+  #all-rights-reserved{
+    margin-top: -2rem;
+    font-size: 1.2rem;
+  }

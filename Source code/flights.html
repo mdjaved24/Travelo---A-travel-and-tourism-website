@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flights</title>
+</head>
+<link rel="stylesheet" href="flights.css">
+<body>
+    <header>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <ul>
+            <li class="nav"><a href="/home/home.html">Home</a></li>
+            <li class="nav"><a href="/flights/flights.html" id="flights">Flights</a></li>
+            <li class="nav"><a href="/cruise/cruise.html" >Cruise</a></li>
+            <li class="nav"><a href="/trains/trains.html">Trains</a></li>
+            <li class="nav"><a href="/bus/bus.html">Bus</a></li>
+            <li class="nav"><a href="/hotels/hotels.html">Hotels</a></li>
+            <li class="nav"><a href="/packages/packages.html">Packages</a></li>
+            <li class="nav"><a href="/bookings/bookings.html" id="booking">Bookings</a></li>
+            <li class="nav"><a href="/Contact/contact.html">Contact</a></li>
+            <div id="search"><input type="search" placeholder="search">
+                <img id="img" src="search.jpg" width="10px" height="10px"></div>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="flynow">
+       <h6>Elevate your Journey</h6>
+    </section>
+    <section>
+        <form action="#">
+            <label for="from"><h5>Fly From:</h5>
+                <input type="text" id="from" placeholder="Source">
+            </label>
+            <label for="to"><h5>Fly To:</h5>
+                 <input type="text" id="destination" placeholder="Destination">
+            </label>
+            <label for="departure"><h5>Departure:</h5>
+                 <input type="date" placeholder="dd/mm/yyyy">
+            </label>
+            <label for="return"><h5>Return:</h5>
+                 <input type="date" placeholder="dd/mm/yyyy">
+            </label>
+            <label for="adult"><h5>Adult:</h5>
+                  <input type="number" placeholder="Adults">
+            </label>
+            <label for="children"><h5>Children:</h5>
+                  <input type="number" placeholder="Children">
+            </label>
+            <label for="submit" id="submit-form">
+                <button type="submit">SEARCH
+            </label>
+        </form>
+    </section>
+    <div class="container">
+        <div class="contain" id="item1">
+            <form action="#" id="sort">
+                <h5>Sort by:</h5>
+                <select name="Name" id="name">
+                    <option value="name">Name</option>
+                    <option value="name">Name(A-Z)</option>
+                    <option value="name">Name(Z-A)</option>
+                </select>
+                <select name="price" id="price">
+                    <option value="price">Price</option>
+                    <option value="low">Low-High</option>
+                    <option value="high">High-Low</option>
+                </select>
+                <select name="Rating" id="rating">
+                    <option value="rating">Rating</option>
+                    <option value="low">Low-High</option>
+                    <option value="high">High-Low</option>
+                </select>
+                <select name="Popular" id="popular">
+                    <option value="popularity">Popularity</option>
+                    <option value="low">Low-High</option>
+                    <option value="high">High-Low</option>
+                </select>
+                <label for="submit" id="apply">
+                    <button type="submit">APPLY
+                </label>
+             </form>
+        </div>
+        <div class="contain" id="item2">
+
+            <div class="flight-box" id="flight-item1">
+                <img src="air india.jpg" alt="" >
+                <h6>New Delhi-Mumbai</h6>
+                <p><strong>₹4,000</strong>/person</p>
+            </div>
+
+            <div class="flight-box" id="flight-item2">
+                <img src="SpiceJet.png" alt="" >
+                <h6>Hyderabad-Kolkata</h6>
+                <p><strong>₹5,500</strong>/person</p>
+            </div>
+
+            <div class="flight-box" id="flight-item3">
+                <img src="Indigo.png" alt="" >
+                <h6>Goa-Bengaluru</h6>
+                <p><strong>₹2,500</strong>/person</p>
+            </div>
+
+            <div class="flight-box" id="flight-item4">
+                <img src="qantas.avif" alt="" >
+                <h6>New Delhi-Sydney</h6>
+                <p><strong>₹60,000</strong>/person</p>
+            </div>
+
+            <div class="flight-box" id="flight-item5">
+                <img src="etihad.jpg" alt="" >
+                <h6>Kolkata-Abu Dhabi</h6>
+                <p><strong>₹25,000</strong>/person</p>
+            </div>
+
+            <div class="flight-box" id="flight-item6">
+                <img src="qatar.jpg" alt="" >
+                <h6>Mumbai-Qatar</h6>
+                <p><strong>₹30,000</strong>/person</p>
+            </div>
+
+            <div class="flight-box" id="flight-item7">
+                <img src="lufthansa.svg" alt="" >
+                <h6>Bengaluru-France</h6>
+                <p><strong>₹58,000</strong>/person</p>
+            </div>
+
+            <div class="flight-box" id="flight-item8">
+                <img src="kingfisher.jpg" alt="" >
+                <h6>Pune-Bangkok</h6>
+                <p><strong>₹23,000</strong>/person</p>
+            </div>
+
+        </div>
+    </div>
+    </section>
+</main>
+
+<!----------------------------------------------->
+    <!-- FOOTER  -->
+    <footer>
+        <div class="more">
+
+        <!-- SERVICES -->
+         <div class="foot">
+          <ul>
+            <li><h1>SERVICES</h1></li>
+            <li><a href="#">Domestic Hotels</a></li>
+            <li><a href="#">International Hotels</a></li>
+            <li><a href="#">Domestic flights</a></li>
+            <li><a href="#">International flights</a></li>
+            <li><a href="#">Bus Booking</a></li>
+            <li><a href="#">Train Booking</a></li>
+          </ul>
+         </div>
+
+         <!-- ------------------------------------------------->
+         <!-- ABOUT US -->
+         <div class="foot">
+            <ul>
+                <li><h1>ABOUT US</h1></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">User Agreement</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+         </div>
+         
+            <!-- ----------------------------------------->
+            <!-- MORE LINKS -->
+            <div class="foot" id="links">
+                <ul>
+                    <h1>MORE LINKS</h1>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Hotels near me</a></li>
+                    <li><a href="#">My Bookings</a></li>
+                    <li><a href="#">Cancellation</a></li>
+                    <li><a href="#">My Account</a></li>
+                </ul>
+            </div>
+            <!---------------------------------------------->
+            <!-- FEEDBACK -->
+            <div class="foot" id="feed">
+                <textarea placeholder="Provide us your valuable feedback" id="feedback">
+                </textarea>
+                <input type="submit" id="submit">
+                <p>1-918-339-6390</p>
+            </div>
+        </div>
+        <p>@2023Travel&Tourism.All rights reserved</p>
+       </footer>
+</body>
+</html>
